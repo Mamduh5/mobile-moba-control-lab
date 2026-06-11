@@ -78,6 +78,10 @@ export class SkillButton {
   }
 
   private handlePointerDown(pointer: Phaser.Input.Pointer): void {
+    if (this.activePointerId !== null) {
+      return;
+    }
+
     if (!this.isReady(this.scene.time.now)) {
       return;
     }

@@ -3,6 +3,6 @@
   y: number;
 };
 
-export type SkillId = "skill_1" | "skill_2" | "skill_3" | "ultimate";
+export type SkillId = "basic_attack" | "skill_1" | "skill_2" | "skill_3" | "ultimate";
 
 export type SkillAimKind = "line" | "dash" | "circle" | "cone";
