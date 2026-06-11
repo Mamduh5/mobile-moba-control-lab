@@ -1,4 +1,5 @@
-﻿import type { Vec2 } from "../types/controlTypes";
+import Phaser from "phaser";
+import type { Vec2 } from "../types/controlTypes";
 
 export type VirtualJoystickConfig = {
   x: number;
